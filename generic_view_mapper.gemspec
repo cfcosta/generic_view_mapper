@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activesupport", "~> 5"
+  spec.add_dependency "activesupport", ">= 5", "< 8"
   spec.add_dependency "multi_json", "~> 1"
   spec.add_dependency "virtus", "~> 1"
   spec.add_dependency "dry-container", "~> 0.6"
